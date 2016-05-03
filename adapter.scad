@@ -25,7 +25,7 @@ difference() {
 		}
 		
 		for (i = [0:90:360]) {
-			rotate([0, 0, i]) translate([0, 32/2, -1]) hex_hole(3, 3, 30, 5);
+			rotate([0, 0, i]) translate([0, 32/2, -1]) hex_hole(3, 2+0.2, 30, 5);
 		}
 	};
 }
