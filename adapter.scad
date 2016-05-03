@@ -1,5 +1,12 @@
 
 $fn = 64;
+$fs = 0.1; 
+
+module hex_hole(nut_radius, screw_radius, depth, nut_depth) {
+	correction = 1/cos(30);
+	cylinder(r=nut_radius*correction+0.2, h=nut_depth, $fn=6);
+	cylinder(d=screw_radius,h=depth);
+}
 
 difference() {
 	union() {
@@ -18,8 +25,7 @@ difference() {
 		}
 		
 		for (i = [0:90:360]) {
-			rotate([0, 0, i]) translate([0, 32/2, -1]) cylinder(14, d=4+0.2);
-			rotate([0, 0, i]) translate([0, 32/2, -1]) cylinder(4, d=7+0.2, $fn=6);
+			rotate([0, 0, i]) translate([0, 32/2, -1]) hex_hole(3, 3, 30, 5);
 		}
 	};
 }
