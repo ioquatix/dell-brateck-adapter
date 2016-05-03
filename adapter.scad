@@ -5,7 +5,7 @@ $fs = 0.1;
 module hex_hole(nut_radius, screw_radius, depth, nut_depth) {
 	correction = 1/cos(30);
 	cylinder(r=nut_radius*correction+0.2, h=nut_depth, $fn=6);
-	cylinder(d=screw_radius,h=depth);
+	cylinder(r=screw_radius,h=depth);
 }
 
 difference() {
