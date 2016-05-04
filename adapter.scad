@@ -13,8 +13,11 @@ module hex_hole(nut_radius, screw_radius, depth, nut_depth) {
 difference() {
 	union() {
 		cylinder(6, d=70);
-		cylinder(10, d=44);
-		cylinder(12, d=20-0.2);
+		
+		// The thickness of the steel plate is 1.5mm.
+		//
+		cylinder(10-1.5, d=44);
+		cylinder(12-1.5, d=20-0.2);
 	};
 
 	// All the cutouts
