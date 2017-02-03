@@ -2,6 +2,8 @@
 
 This is a 3D part to join the Dell monitor clip/stand to a [Brateck desk mount](http://www.lumi.cn/en/tv-monitor/monitor-table-mounts/ldt02-c024).
 
+![Fan Mount](photos/IMG_8333.jpg)
+
 ## Motivation
 
 I purchased these stands and although they are advertised as being VESA compatible (100mm) they don't fit Dell monitors due to the recessed design of the Dell monitor mount. After pulling the Brateck adapter to pieces, and finding some 2nd hand Dell monitor stands, I decided it would be possible to join the two together in an unholy alliance.
@@ -20,6 +22,8 @@ I purchased these stands and although they are advertised as being VESA compatib
 3. Remove the Brateck VESA mount and the front half of the ball joint.
 4. Attach the adapter to the front half of the ball joint and then the Dell bracket.
 5. Put everything back together and enjoy.
+
+![Fan Mount](photos/IMG_8334.jpg)
 
 ## Contributing
 
